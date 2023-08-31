@@ -86,9 +86,36 @@ h2{
 
 /*Desktop*/
 @media only screen and (min-width:769px){
+    .fifty{
+        font-size: 1.5em;
+        padding-top: 10em;
+        padding-bottom: 10em;
+    }
+
+    .navbar-brand{
+        margin-left: 1em;
+    }
+    
+    .navbar-nav {
+        padding-left: 8em;
+    }
+
+    .navbar-nav .nav-link {
+        margin-right: 4em;
+        margin-left: 4em;
+    }
+
     .polaroids img{
         height: 380px;
         text-align: center;
+    }
+    
+    .countdown-text{
+        font-size: 1.5em;
+    }
+
+    #countdown{
+        font-size: 2em;
     }
 
     .rsvp{
@@ -100,6 +127,16 @@ h2{
     .rsvp iframe{
         width: 769px;
         height: 970px;
+    }
+
+    .partyfifty{
+        padding: 1.5em 9em;
+        font-size: 1.5em;
+    }
+
+    .event_info{
+        font-size: 1.5em;
+        padding: 0 9em;
     }
 }
 
