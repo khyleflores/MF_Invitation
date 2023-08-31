@@ -62,6 +62,10 @@ h2{
     font-family: "miller-display", serif;
 }
 
+.rsvp-bg{
+    background-color: #ffcb18;
+}
+
 
 
 /*Phone devices*/
@@ -87,6 +91,16 @@ h2{
         text-align: center;
     }
 
+    .rsvp{
+        margin:0 auto;
+        width:75%;
+        text-align:left;
+    }
+
+    .rsvp iframe{
+        width: 769px;
+        height: 970px;
+    }
 }
 
 #countdown{
