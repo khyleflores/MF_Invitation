@@ -1,0 +1,97 @@
+
+body{
+    font-family: "lust", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffcb18!important;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+.navbar-nav a{
+    text-decoration: none;
+    font-family: "miller-display", serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #ffcb18!important;
+    text-align: right;
+}
+
+.content__text span {
+	display: inline-block;
+}
+
+.fifty{
+    text-align: center;
+    padding-top: 15em;
+    padding-bottom: 15em;
+}
+
+.about-text {
+    font-family: "miller-display", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+#image-holder{
+    height: 200px;
+}
+
+.image-holder img{
+    position:absolute;
+    left: 50px;
+}
+
+.partyfifty{
+    text-align: left;
+    padding: 7.5em 2em;
+}
+
+.event_info{
+    text-align: right;
+    font-family: "miller-display", serif;
+}
+
+.order-event{
+    font-family: "miller-display", serif;
+}
+
+
+
+/*Phone devices*/
+@media (min-width:320px){ 
+    body{
+        background-image: url(images/website-background-black.png);
+        background-repeat: no-repeat;   
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    .about{
+        padding: 3em;
+        text-align: center;
+    }
+
+}
+
+/*Desktop*/
+@media only screen and (min-width:769px){
+    .polaroids img{
+        height: 380px;
+        text-align: center;
+    }
+
+}
+
+#countdown{
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; 
+} 
+
+#countdown li { display: inline-block; font-size: .7em; list-style-type: none; padding: .25em; text-transform: uppercase; } 
+#countdown li span { display: block; font-size: 1.75rem; } 
