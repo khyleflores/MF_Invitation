@@ -6,6 +6,13 @@ body{
     color: #ffcb18!important;
 }
 
+body{
+    background-image: url(images/website-background-black.png);
+    background-repeat: no-repeat;   
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 h1{
     font-size: 3em;
 }
@@ -21,6 +28,11 @@ h2{
     font-style: italic;
     color: #ffcb18!important;
     text-align: right;
+}
+
+.navbar-light{
+    background-color: #0c0c0c!important;
+    opacity: 95%;
 }
 
 .content__text span {
@@ -48,6 +60,27 @@ h2{
     left: 50px;
 }
 
+#countdown{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; 
+} 
+
+.countdown-text{
+    font-size: 1em;
+}
+    
+#countdown li { 
+    display: inline-block; 
+    font-size: .7em; 
+    list-style-type: none; 
+    padding: .25em; 
+    text-transform: uppercase; 
+} 
+    
+#countdown li span { 
+    display: block; 
+    font-size: 1.75rem; 
+} 
+
 .partyfifty{
     text-align: left;
     padding: 7.5em 2em;
@@ -66,26 +99,45 @@ h2{
     background-color: #ffcb18;
 }
 
+.rsvphere{
+    color:#ffcb18;
+    text-decoration: underline;
+}
 
 
 /*Phone devices*/
 @media (min-width:320px){ 
-    body{
-        background-image: url(images/website-background-black.png);
-        background-repeat: no-repeat;   
-        background-attachment: fixed;
-        background-size: cover;
+    #countdown{
+        font-size: .50em;
     }
-
     .about{
         padding: 3em;
         text-align: center;
     }
 
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) and (max-width:767px){
+    .image-holder img{
+        margin-left: 6em;
+    }
+
+    #countdown{
+        font-size: 1.5em;
+    }
+}
+
+/*Tablet*/
+@media only screen and (min-width:768px) and (max-width:991px){
+    #countdown{
+        font-size: 1.5em;
+    }
 }
 
 /*Desktop*/
-@media only screen and (min-width:769px){
+@media only screen and (min-width:992px){
     .fifty{
         font-size: 1.5em;
         padding-top: 10em;
@@ -107,7 +159,6 @@ h2{
 
     .polaroids img{
         height: 380px;
-        text-align: center;
     }
     
     .countdown-text{
@@ -140,9 +191,3 @@ h2{
     }
 }
 
-#countdown{
-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; 
-} 
-
-#countdown li { display: inline-block; font-size: .7em; list-style-type: none; padding: .25em; text-transform: uppercase; } 
-#countdown li span { display: block; font-size: 1.75rem; } 

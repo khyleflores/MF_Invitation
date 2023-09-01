@@ -12,7 +12,7 @@
     <script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
 </head>
 <body class="loading">
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="index.html">
           <img class="content__img" src="assets/images/ma-logo.png" width="80" alt="">
         </a>
@@ -51,7 +51,7 @@
       </div>
     </section>
     <section class="row" >
-      <div class="col-lg-5 col-md-6 col-sm-12">
+      <div class="col-lg-5 col-md-5 col-sm-12">
         <div class="image-holder polaroids" id="scroll-image">
           <img src="assets/images/polaroids/1.png" height="250px" class="animateImages" >
           <img src="assets/images/polaroids/4.png" height="250px" class="animateImages" >
@@ -79,7 +79,7 @@
       <section class="row" >
         <div class="col-lg-12 col-md-12 col-sm-12">
           <h6 class="about-text countdown-text">Take a shot with me as I turn 50</h6>
-
+          <div id="headline"> </div>
           <div id="countdown"> 
             <ul> 
               <li><span id="days"></span>days</li> 
@@ -88,6 +88,7 @@
               <li><span id="seconds"></span>Seconds</li> 
             </ul> 
           </div> 
+          <h6>RSVP <a class="rsvphere" href="rsvp.html">here</a></h6>
       </section>
     </div>
     </div>

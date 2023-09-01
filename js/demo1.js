@@ -38,7 +38,7 @@
                         if ( cnt === this.lettersTotal ) {
                             this.complete = true;
                         }
-                    }, 500);
+                    }, 800);
                 }, pos*80);
                 this.timeouts.push(timeout);
             });
