@@ -108,7 +108,8 @@ h2{
 /*Phone devices*/
 @media (min-width:320px){ 
     #countdown{
-        font-size: .50em;
+        font-size: .75em;
+        margin-right: 2em;
     }
     .about{
         padding: 3em;
@@ -127,6 +128,7 @@ h2{
     #countdown{
         font-size: 1.5em;
     }
+
 }
 
 /*Tablet*/
